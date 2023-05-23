@@ -1,0 +1,16 @@
+.footer {
+    height: 300px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContainer  {
+
+}
+
+.title {
+
+}
+

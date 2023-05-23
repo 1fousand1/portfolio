@@ -1,0 +1,49 @@
+.contactsBlock {
+    height: 100vh;
+    background-color: #F1E2FF;
+    flex-direction: column;
+}
+
+
+.contactsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    border: 1px solid;
+}
+
+.contactsForm{
+    width: 500px;
+    border: 1px solid;
+    flex-direction: column;
+
+}
+
+.title {
+    background-color: grey;
+    align-self: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid;
+}
+
+.input{
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.textarea{
+    height: 140px;
+    width:100%;
+    max-width:492px;
+    margin-bottom: 5px;
+}
+
+.btn {
+
+}

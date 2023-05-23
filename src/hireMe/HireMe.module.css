@@ -1,0 +1,26 @@
+.hireMeBlock{
+    background-color: #FFFEEC;
+    height: 30vh;
+
+}
+
+.hireMeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+
+}
+
+.banner{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%
+}
+
+.banner h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
