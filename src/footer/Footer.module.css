@@ -6,11 +6,32 @@
     align-items: center;
 }
 
-.footerContainer  {
-
+.footerContainer {
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
+    background-color: grey;
+}
+
+.socialList {
+    height: 50px;
+    width: 100%;
+    max-width: 450px;
+    padding: 0 0 0 0;
+    min-width: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
 
 }
 
+
+.socialList img{
+    background-color: #C4C4C4;
+    height: 50px;
+    width: 50px;
+}

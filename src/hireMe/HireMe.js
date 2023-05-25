@@ -8,7 +8,7 @@ const HireMe = () => {
             <div className={`${styleContainer.container} ${style.hireMeContainer}`}>
                 <div className={style.banner}>
                     <h2>I am considering remote work</h2>
-                    <button>hire me</button>
+                    <button className={style.btn}>hire me</button>
                 </div>
             </div>
         </div>
