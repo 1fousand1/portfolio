@@ -1,14 +1,12 @@
-.MyWorksBlock{
+.MyProjectsBlock{
     display: flex;
     min-height: 100vh;
     background-color: #F1E2FF;
     flex-direction: column;
     align-items: center;
-
-
 }
 
-.MyWorksContainer{
+.MyProjectsContainer{
     justify-content: space-around;
 
 }
@@ -18,11 +16,10 @@
 
 }
 
-.works{
+.projects{
     border: 1px solid;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
+    width: 100%;
 }

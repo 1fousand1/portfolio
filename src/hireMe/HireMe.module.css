@@ -1,6 +1,8 @@
 .hireMeBlock{
     background-color: #FFFEEC;
-    height: 30vh;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -12,28 +14,12 @@
 
 }
 
-.banner{
-    border: 1px solid;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%
-}
 
-.banner h2{
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.btn {
+.button {
     background-color: #ff0000;
     color: #fff;
     border: none;
     cursor: pointer;
     width: 150px;
     height: 30px;
-}
-
-.btn:hover {
-    background-color: black;
 }

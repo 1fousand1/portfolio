@@ -1,12 +1,12 @@
 import React from 'react';
-import style from './Work.module.css';
+import style from './Project.module.css';
 
-const Work = (props) => {
+const Project = (props) => {
     return (
-        <div className={style.work}>
-            <div className={style.workContainer}>
+        <div className={style.project}>
+            <div className={style.imgContainer}>
                 <img className={style.img} src={props.src} alt={'Pic'}/>
-                <button>я кнопка</button>
+                <a href={"#"} className={style.button}>Watch more</a>
             </div>
             <h3>{props.title}</h3>
             <span className={style.description}>{props.description}</span>
@@ -14,7 +14,7 @@ const Work = (props) => {
     );
 };
 
-export default Work;
+export default Project;
 
 
 

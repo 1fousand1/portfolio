@@ -1,0 +1,38 @@
+.project {
+   min-width: 270px;
+    max-width: 400px;
+    background-color: #C4C4C4;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+
+}
+
+.description {
+    min-width: 280px;
+    background-color:#D9D9D9 ;
+}
+
+.img {
+
+
+}
+
+.imgContainer {
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    text-decoration: none;
+    user-select: none;
+    background: red;
+    padding: 10px 25px;
+}
+
+

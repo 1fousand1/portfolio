@@ -5,18 +5,18 @@ import styleContainer from "../../common/styles/Container.module.css";
 const SocialList = () => {
     return (
         <div className={`${styleContainer.container} ${style.footerContainer}`}>
-            <h2>
+            <h2 className={style.title}>
                 Danila Ostrowsky
             </h2>
-            <ul className={style.socialList}>
-                <li><img src={'#'} alt={'icon'}/></li>
-                <li><img src={'#'} alt={'icon'}/></li>
-                <li><img src={'#'} alt={'icon'}/></li>
-                <li><img src={'#'} alt={'icon'}/></li>
-            </ul>
-            <h2>
+            <div className={style.socialList}>
+                <div className={style.icon}><img  src={'#'} alt={'icon'}/></div>
+                <div className={style.icon}><img  src={'#'} alt={'icon'}/></div>
+                <div className={style.icon}><img  src={'#'} alt={'icon'}/></div>
+                <div className={style.icon}><img  src={'#'} alt={'icon'}/></div>
+            </div>
+            <h3 className={style.title}>
                 © 2023 All rights reserved
-            </h2>
+            </h3>
         </div>
     );
 };

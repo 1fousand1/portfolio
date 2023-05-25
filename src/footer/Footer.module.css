@@ -1,6 +1,6 @@
 .footer {
     height: 300px;
-    background-color: cornflowerblue;
+    background-color: #EBFFE2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,11 @@
 
 
 .socialList img{
-    background-color: #C4C4C4;
+
+}
+
+.icon{
     height: 50px;
     width: 50px;
+    background-color: #C4C4C4;
 }
